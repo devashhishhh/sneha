@@ -1,0 +1,69 @@
+
+
+
+p{
+    color: black;
+    text-decoration:  2px underline rgb(123, 218, 64);
+    text-align: center;
+    text-shadow: 5px 5px 5px blueviolet;
+   
+
+} 
+body{
+    background: url(1pic.jpg) ;
+
+    background-size: 35%;
+    
+}
+
+
+#container{
+    position: relative;
+    height: 35vw;
+    width: 35vw;
+    background: url(clock.png)  no-repeat;
+    margin: auto;
+    
+    background-size: 100%;
+    
+}
+#hour,#minute,#second{
+     background: black; 
+    position: absolute;
+    border-radius: 12px;
+    transform-origin: bottom;
+
+}
+
+#hour{  height: 26.5%;
+    width: 1.2%;
+    top: 25%;
+    left: 49.4%;
+    
+    
+    
+
+  }
+
+
+#minute {
+    height: 34%;
+    width: 0.8%;
+    top: 17%;
+    left: 49.4%;
+    
+    
+    
+    
+}
+#second{
+    height: 38%;
+    width: 0.6%;
+    top: 13%;
+    left: 49.6%;
+    
+    
+
+}
+
+
